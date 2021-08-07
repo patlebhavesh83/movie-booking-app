@@ -1,39 +1,37 @@
 heading {
-    background-color: #ff9999;
-    padding: 8px;
-    display: flex;
-    justify-content: center;
-    font-size: 1rem;
-  }
-  .movie {
-    overflow-y: hidden;
-    overflow-x: hidden;
-  }
-  .MuiGridList-root {
-    flex-wrap: nowrap !important;
-  }
+  background-color: #ff9999;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+}
+.movie {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.MuiGridList-root {
+  flex-wrap: nowrap !important;
+}
+
+li {
+  width: unset !important;
+}
+.flex-container{
+  display: flex;
+  margin: 16px;
+}
+.left{
+  width: 76%;
+}
+.right{
+  width: 24%;
+}
+.button{
   
-  li {
-    width: unset !important;
-  }
-  .flex-container{
-    display: flex;
-    margin: 16px;
-  }
-  #image:hover{
-    cursor: pointer;
-  }
-  .left{
-    width: 76%;
-  }
-  .right{
-    width: 24%;
-  }
-  .title{
-    font-size:  14px !important;
-    color: blue !important;
-  }
-  .select{
-    padding-right: 9em !important;
-  }
-  
+  display: grid;
+  padding: 15px;
+ 
+}
+#formcontrol{
+  display: flex !important;
+}
